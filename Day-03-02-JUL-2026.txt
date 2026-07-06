@@ -1,0 +1,4 @@
+hi neeraj bhaiya 
+i have learned today zombie process Run level hardlink soft link #!/bin/bash sed and awk and how to find the 10 largest
+and one most imp commands
+find . -type f -exec du-h {} + | sort-hr | head -10
