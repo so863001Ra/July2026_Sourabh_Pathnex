@@ -1,4 +1,4 @@
  Today i learned about the Git and various commands of Git 
 and i also working on my communication skills as well
  got clone , git init , git stage , git status, git add. , git commit -m "this is first commit", git diff git show git revert git and many more 
-git is a distributed version control system which helps us to maintain and track changes in a file of system and it is wiedly used in softwarree develepment wwhich helps us to maintain history chnages version control
+git is a distributed version control system which helps us to maintain and track changes in a file of system and it is wiedly used in softwarree develepment wwhich helps us to maintain history chnages version control and helpsmus to track file 
