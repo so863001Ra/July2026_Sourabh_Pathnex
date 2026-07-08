@@ -1,0 +1,1 @@
+hello i have studied about the IAAS PAAS SAAS also i have learned about internet gateway and NAT gateway  Amazon EC2 services and IAm that is identity Access management  and VPC vpc is a your own private network inside  AWS cloud where you launch resources Like eC2 Nat Gateway
