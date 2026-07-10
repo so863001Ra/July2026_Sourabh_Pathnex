@@ -58,23 +58,4 @@ metadata:
   name: pathnex-secret
 type: Opaque
 data:
-  password: cGF0aG5leHBhc3M=
-🔹 Shell Script — Archive Logs
-#!/bin/bash
-tar -czf /var/log/archived_logs.tar.gz /var/log/*.log
-
-
-🔹 Docker Java Application 
-# JavaScript
-class Hello {
-    public static void main(String[] args) {
-        System.out.println("Hello Pathnex");
-    }
-}
-
-# Docker File
-FROM openjdk:17
-WORKDIR /opt/pathnex/java-app
-COPY Hello.java /opt/pathnex/java-app/
-RUN javac /opt/pathnex/java-app/Hello.java
-CMD ["java", "-cp", "/opt/pathnex/java-app", "Hello"]
+   password: cGF0aG5leHBhc3M=
