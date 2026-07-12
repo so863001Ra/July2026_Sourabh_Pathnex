@@ -1,0 +1,54 @@
+Day 09 — Docker Integration with Jenkins & GitLab
+- name: Setup Docker Conatiner for Nginx
+  hosts: all
+  become: yes
+  tasks:
+   - name: Pull Nginx image
+     docker_image:
+     name: nginx
+     source: pull
+ - name: Run Nginx container 
+   image: nginx
+   state: started 
+   published_ports: 
+   - 8080:80
+ 🔹 Kubernetes — Horizontal Pod Autoscaler (HPA)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pathnex-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pathnex-app
+  template:
+    metadata:
+      labels:
+        app: pathnex-app
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+            - containerPort: 80
+
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+ name: pathnex-deployment
+spec: 
+ replicas: 1
+ selector:
+  matchLables:
+  app : pathnex-app
+ template:
+  metadata:
+   lables:
+    app: pathnex-app
+spec; 
+  containers:
+   - name: nginx
+     image; nginx
+     ports: 
+       - conatinerPort: 80
