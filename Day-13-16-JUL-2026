@@ -1,7 +1,0 @@
-Hello neeraj today bhaiya i have learn about ingress so basically ingress exposed the multiple service of the kubernetes cluster to the outside world by using a single entry point and route based on rules like URL path or domain name 
- ingress includes:
-path based routing
-domain based routing 
-load balancing between pods
-SSL/TLS termination
- i learn Affinity node affinity pod affinity pod ati affinity probes and IStio

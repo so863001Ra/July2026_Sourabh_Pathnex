@@ -1,9 +1,0 @@
- heelo neeraj bhaiya i am working on my communication skill and in today's morning class we learn about the kuberenetes so kubernetes s open source orchestration platform for automating the delpoyments ,scaling and managing containerized application . containers like (docker ) package our application and its dependencies , kubernetes manages thousands of application across multiple servers ensruing they stay healthy and availble kuberenetes have two maine componets like control planer and worker node in control plane it is the brain of the kubernetets like kubernetets control planer resposiblites include: Receving deployments requests 
- decding where conatiners should run
-monitoring cluster health
-restarting failed application and scaling application 
-these have four compoents 
-API server 
-scheduler 
-etcd 
-controller manager
