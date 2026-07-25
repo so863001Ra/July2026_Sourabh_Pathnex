@@ -1,0 +1,5 @@
+ hello neeraj bhaiya today i learn about the Monitoring so in devops monitoring is best practice of continously, collecting , analyzing and acting on a real data from software application and infrastructure.
+so monitoring is a dashboard that ensures thatis does it  not crash while do doing it so it acts as a automated feedback loop between the production and the develepment team
+so monitoring isn't just rely on the live servers it spans on both the production code and the runtime 
+so it helps us in piplines, security, application performance, infrastructure,it matters beacuse devlpers rely only in users reporting the broken features automated monitoring sigficantly helps in resducing thr MTTD MTTR the next thing i learn that is  Metrics traces and logs are the main pillars of Observability metrics tells you  that somthing is wrong traces tells you that wherre it is wrong  and logs tells you that why it is wrong that is ll i learn from todays aclass
+
