@@ -1,0 +1,5 @@
+Hi neeraj bhaiya today i learned about the ELK that is Elastic logstack and kibana so it is a set of 3 open source tools  elastic logsttack and kibana they works together to collect, search ,analyze and visualize data in the real time,
+togther they form a centrailized log management and analaytics platform
+Elastic search-it is a distrubuted serach engine
+it stores all your logs
+Logstash-it is a data processing engine
