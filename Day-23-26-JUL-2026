@@ -1,0 +1,11 @@
+Hello neeraj bhiya today i have learn about kafka 
+I see Kafka as a distributed streaming platform built around topics, partitions, brokers, producers, and consumers. Here’s how I usually explain it
+
+Broker – I think of each broker as a Kafka server that stores messages. I usually run multiple brokers for fault tolerance.
+Topic – I categorize messages into topics, like “orders” or “logs.” Each topic can be split into partitions.
+Partition – I treat partitions as ordered logs inside a topic. Each partition has messages with offsets, so I can always replay or track messages.
+Producer – I push messages to a topic. I can control which partition the message goes to, often using a key.
+Consumer – I pull messages from topics. I usually use consumer groups so multiple consumers can share processing while maintaining order per partition.
+Zookeeper / KRaft – I rely on Zookeeper (older versions) or KRaft (newer Kafka) for cluster metadata, leader election, and configuration management.
+Replication & Fault Tolerance – I configure replication for partitions. I pick a leader partition, and followers replicate it. If the leader fails, I promote a follower.
+Retention & Log Compaction – I set retention policies to control how long messages live, and sometimes I enable log compaction for key-based latest-value retention.
