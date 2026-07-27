@@ -1,0 +1,7 @@
+hello neeraj bhaiya today i learned about SSL/TLS that is secure sockets layer and transport layer security it is digital file installed on a web Server that performs two essentials jobs:-
+1.encrpting data
+2.verifying the website identity
+When a website usese one its web address chnages from http: to https and browers display a pod lock icon in the adressbar 
+exposing HTTPS via ingress (TLS terminataion)
+the most common way to use SSL/TLS in kubernetes is TLS termination at the ingress controller the ingress vongrtoller decyrptes external https requests using the secrets and forwars plain HTTP traffic to backend  pods inside the cluster 
+Automayting Vcretifcates withe the cert manager: manually uploading and renewing certofcites leads to outages when keys expire in production kuberrenetes clusterd the industry standard tool formautimating SSL /TLS is cert mmanager Cert mnagwer automatiaclly requets cerfitication stores the issued certicaate ina kubernetes secret and renews it before expiration
