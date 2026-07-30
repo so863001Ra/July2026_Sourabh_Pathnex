@@ -1,0 +1,7 @@
+hi neeraj bhaiya today i just learned about the DevSecOps that is a combination of develpement , security and operation  so it is the best practice of intgrating security checks and principles into every single phase of the software develepment life cycle from design and coding all the way through to deployment and maintenance 
+DevSecOps embedded security directly into the automated devops pipeline so that rapid delivery does not scarifice security 
+key priciciple of DevSecOps is:
+Shift left
+Security as a code automation
+ SAST and DAST
+ Quality Gates in DevSecOps
